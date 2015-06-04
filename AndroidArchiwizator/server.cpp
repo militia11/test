@@ -6,6 +6,8 @@ Server::Server(QObject *parent) : QTcpServer(parent)
 }
 
 // new new
+// new
+
 void Server::run()
 {
     if(!this->listen(QHostAddress::Any, 1234)){
