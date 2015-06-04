@@ -10,6 +10,7 @@ class SrvThread : public QThread
 {
     Q_OBJECT
 public:
+    // neeeeeeeeeeeeeeeeeeeew
     // rebase2
     explicit SrvThread(int ID, QObject *parent = 0);
     void run();
