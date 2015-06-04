@@ -20,7 +20,7 @@ signals:
 public slots:
     void receiveData(QByteArray data);
 
-
+// server hhhhhhhhhhhhhhhhhhhhhhhhhh
 private:
     QTcpSocket* socket;
 
