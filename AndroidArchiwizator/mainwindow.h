@@ -16,6 +16,8 @@ class MainWindow : public QMainWindow
 public:
     // druga proba
     // trzecia
+    // final
+
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
