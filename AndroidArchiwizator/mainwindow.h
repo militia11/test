@@ -19,6 +19,9 @@ public:
     // trzecia
     // final
 
+    //my
+    //my
+    //my
     // comone hit me
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
