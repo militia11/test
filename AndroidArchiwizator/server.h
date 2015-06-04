@@ -10,6 +10,7 @@ class Server : public QTcpServer
 {
     Q_OBJECT
 
+    // proba rebase!
 public:
     explicit Server(QObject *parent = 0);
     void run();
