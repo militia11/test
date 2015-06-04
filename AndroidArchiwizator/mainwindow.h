@@ -29,6 +29,7 @@ signals:
 private:
     Ui::MainWindow *ui;
     Server* server;
+    int ax;
 };
 
 
