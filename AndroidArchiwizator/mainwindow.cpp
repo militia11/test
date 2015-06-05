@@ -5,6 +5,7 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
+    // proba orig
     ui->setupUi(this);
     server = new Server();//skasowac stad przy przycisku: nasluchuje niech bedzie
     connect( server, SIGNAL( sendingToGUI(QByteArray)), this, SLOT(compareData(QByteArray) ) ) ;
