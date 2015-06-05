@@ -12,17 +12,9 @@ class MainWindow;
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
+    //3
 
 public:
-    //
-    // druga proba
-    // trzecia
-    // final
-
-    //my
-    //my
-    //my
-    // comone hit me
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
